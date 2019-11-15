@@ -33,7 +33,7 @@ Tequila API is an service that manage only tags about Video On Demand plataforms
 
 The key is the name of the tag that you want to create for your content ( Serie or movie ). The following endpoint is to return all tags available:
 
-GET - /tag/keys
+``` GET - /tag/keys ``` 
 
 Other routes:
 
