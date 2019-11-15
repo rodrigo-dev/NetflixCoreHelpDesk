@@ -17,6 +17,8 @@ Install all dependencies:
 Initialize the server:
 ```npm start```
 
+This will initialize your server in a localhost:3000.
+
 ## Endpoints
 
 Tequila API is an service that manage only tags about Video On Demand plataforms, so we follow a default schemma for all:
@@ -25,9 +27,66 @@ Tequila API is an service that manage only tags about Video On Demand plataforms
 {
   "consumerId˜: ˜Id of the consumer˜,
   "key": "The key is the name of the tag, we will explain this in the next topic."
-  "": "Value is the ID of the content that you want to save. This means that if you want to save a tag related to an serie or a movie, you can put the Identity of this content ( can be an Id or other unique identity )."
+  "value": "Value is the Identity of the content, for example: Id or any unique identity of the movie or serie"
 }
 ```
 
-* [Login](login.md) : `POST /api/login/`
+The key is the name of the tag that you want to create for your content ( Serie or movie ). The following endpoint is to return all tags available:
+
+GET - /tag/keys
+
+Other routes:
+
+Create a tag:
+POST - /tag
+
+Sample request: 
+
+```
+  POST - localhost:3000/tag
+  
+  body: 
+    {
+      "consumerId":"12",
+      "key": "LAST_SEEN",
+      "value": "MOV123"
+    }
+``` 
+
+Get a tag:
+GET - /tag
+
+Sample request: 
+
+Get the last seem movie with id 12 of the consumer 12.
+```
+  GET - localhost:3000/tag?key=LAST_SEEM&consumerId=12&value=MOV2
+``` 
+
+Get all last seem movies or series.
+```
+  GET - localhost:3000/tag?key=LAST_SEEM&value=MOV2
+``` 
+
+Get all tags for the movie MOV2.
+```
+  GET - localhost:3000/tag?value=MOV2
+``` 
+
+Get a tag:
+DELETE - /tag
+
+Sample request: 
+
+Delete the last seem movie with id 12 of the consumer 12.
+```
+  DELETE - localhost:3000/tag?key=LAST_SEEM&consumerId=12&value=MOV2
+``` 
+
+
+
+
+
+
+
 
