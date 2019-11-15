@@ -19,7 +19,15 @@ Initialize the server:
 
 ## Endpoints
 
-Open endpoints require no Authentication.
+Tequila API is an service that manage only tags about Video On Demand plataforms, so we follow a default schemma for all:
+
+```
+{
+  "consumerId˜: ˜Id of the consumer˜,
+  "key": "The key is the name of the tag, we will explain this in the next topic."
+  "": "Value is the ID of the content that you want to save. This means that if you want to save a tag related to an serie or a movie, you can put the Identity of this content ( can be an Id or other unique identity )."
+}
+```
 
 * [Login](login.md) : `POST /api/login/`
 
