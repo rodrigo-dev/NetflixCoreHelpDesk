@@ -74,7 +74,7 @@ Get all tags for the movie MOV2.
 ``` 
 
 Get a tag:
-```DELETE - /tag
+```DELETE - /tag```
 
 Sample request: 
 
