@@ -38,7 +38,7 @@ The key is the name of the tag that you want to create for your content ( Serie 
 Other routes:
 
 Create a tag:
-POST - /tag
+```POST - /tag```
 
 Sample request: 
 
@@ -54,7 +54,7 @@ Sample request:
 ``` 
 
 Get a tag:
-GET - /tag
+```GET - /tag```
 
 Sample request: 
 
