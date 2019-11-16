@@ -17,11 +17,11 @@ Install all dependencies:
 Initialize the server: 
 ```npm start``` 
  
-This will initialize your server in a localhost:3000. 
+This will initialize your server in a http://0.0.0.0:8883/. 
  
 ## Endpoints 
  
-This API provides Swagger, check endpoint / api /
+This API provides Swagger, check endpoint /api/
 
 
 
