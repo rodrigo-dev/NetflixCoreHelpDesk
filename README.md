@@ -17,7 +17,7 @@ Install all dependencies:
 Initialize the server: 
 ```npm start``` 
  
-This will initialize your server in a http://0.0.0.0:8883/. 
+This will initialize your server in a http://localhost:8883/. 
  
 ## Endpoints 
  
