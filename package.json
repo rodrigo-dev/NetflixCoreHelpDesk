@@ -1,5 +1,5 @@
 {
-  "name": "tag-service",
+  "name": "requests-service",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,13 +9,15 @@
     "dev": "docker-compose down && nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rodrigo Tavares",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.7.10",
-    "nodemon": "^1.19.4"
+    "nodemon": "^1.19.4",
+    "swagger-jsdoc": "^3.4.0",
+    "swagger-ui-express": "^4.1.2"
   }
 }

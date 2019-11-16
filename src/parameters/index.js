@@ -1,5 +1,4 @@
-const PostTagParameters = require('./postTagParameters');
-const GetTagParameters = require('./getTagParameters');
-const DeleteTagParameters = require('./deleteTagParameters');
+const GetRequestsParameters = require('./requestsParameters/getRequestsParameters');
+const PostRequestsParameters = require('./requestsParameters/postRequestsParameters');
 
-module.exports = { PostTagParameters, GetTagParameters, DeleteTagParameters };
+module.exports = { GetRequestsParameters, PostRequestsParameters };

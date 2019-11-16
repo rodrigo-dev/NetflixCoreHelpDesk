@@ -1,3 +1,3 @@
-const tagController = require('./tag-controller');
+const requestsController = require('./requests-controller');
 
-module.exports = { tag: tagController }; 
+module.exports = { requests: requestsController }; 
