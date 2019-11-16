@@ -9,7 +9,7 @@ First, you have to make sure that you have the following plataforms installed in
 - * https://www.docker.com/products/docker-desktop : `Docker;` 
 - * https://nodejs.org/en/download/ : `NodeJS`; 
  
-Ti initialize the API in your local enviroment, you have to open your terminal, go to the root of the project and put the following comands: 
+To initialize the API in your local enviroment, you have to open your terminal, go to the root of the project and put the following comands: 
  
 Install all dependencies: 
 ```npm install``` 
@@ -17,11 +17,11 @@ Install all dependencies:
 Initialize the server: 
 ```npm start``` 
  
-This will initialize your server in a localhost:3000. 
+This will initialize your server in a http://localhost:8883/. 
  
 ## Endpoints 
  
-This API provides Swagger, check endpoint / api /
+This API provides Swagger, check endpoint /api/
 
 
 
