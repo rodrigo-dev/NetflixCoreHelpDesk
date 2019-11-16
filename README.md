@@ -9,7 +9,7 @@ First, you have to make sure that you have the following plataforms installed in
 - * https://www.docker.com/products/docker-desktop : `Docker;` 
 - * https://nodejs.org/en/download/ : `NodeJS`; 
  
-Ti initialize the API in your local enviroment, you have to open your terminal, go to the root of the project and put the following comands: 
+To initialize the API in your local enviroment, you have to open your terminal, go to the root of the project and put the following comands: 
  
 Install all dependencies: 
 ```npm install``` 
